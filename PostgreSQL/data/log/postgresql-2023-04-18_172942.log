@@ -1,0 +1,254 @@
+2023-04-18 17:29:42.572 EAT [4952] LOG:  database system was shut down at 2023-04-18 17:29:31 EAT
+2023-04-18 17:29:42.631 EAT [8104] LOG:  database system is ready to accept connections
+2023-04-18 17:58:16.650 EAT [11468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 17:58:16.655 EAT [2212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:00:55.520 EAT [6412] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:00:55.520 EAT [6412] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:01:49.328 EAT [15256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:01:49.330 EAT [14348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:16:48.364 EAT [6112] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:16:48.383 EAT [15200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:20:56.715 EAT [6152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:20:56.718 EAT [5040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:23:10.001 EAT [9640] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:23:10.001 EAT [9640] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:23:31.819 EAT [11424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:23:31.822 EAT [4104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:32:32.053 EAT [14804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:32:32.054 EAT [3820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:32:37.438 EAT [13036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:32:37.447 EAT [1404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:32:51.548 EAT [12812] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:32:51.548 EAT [12812] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:32:56.917 EAT [12292] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:32:56.917 EAT [12292] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:33:01.307 EAT [6152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:33:01.309 EAT [11040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:33:11.303 EAT [1460] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:33:11.303 EAT [1460] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:35:10.664 EAT [372] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:35:10.664 EAT [372] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:35:21.542 EAT [7368] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:35:21.542 EAT [7368] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:35:33.082 EAT [1084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:35:33.085 EAT [11832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:36:03.577 EAT [6092] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:36:03.577 EAT [6092] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:36:34.830 EAT [13828] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:36:34.830 EAT [13828] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:36:59.744 EAT [9080] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:36:59.744 EAT [9080] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:44:37.546 EAT [15016] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:44:37.546 EAT [15016] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:46:46.951 EAT [7716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:46:46.953 EAT [12908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:52:09.836 EAT [12992] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:52:09.836 EAT [12992] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:55:40.601 EAT [3524] ERROR:  database ""Ranking_System"" does not exist
+2023-04-18 18:55:40.601 EAT [3524] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-18 18:56:44.068 EAT [15356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-18 18:56:44.068 EAT [3384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 04:41:11.840 EAT [15180] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 04:41:11.840 EAT [15180] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 04:50:22.325 EAT [7520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 04:50:22.328 EAT [8500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:03:36.570 EAT [15548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:03:36.573 EAT [15076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:03:59.382 EAT [16460] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:03:59.382 EAT [16460] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:07:19.333 EAT [3668] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:07:19.333 EAT [3668] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:07:21.225 EAT [16396] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:07:21.225 EAT [16396] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:07:25.995 EAT [5952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:07:25.996 EAT [1720] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:09:03.701 EAT [12280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:09:03.703 EAT [9564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:09:22.855 EAT [14188] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:09:22.855 EAT [14188] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:09:24.086 EAT [17048] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:09:24.086 EAT [17048] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:09:25.955 EAT [10764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:09:25.958 EAT [8500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:13:35.182 EAT [7228] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:13:35.182 EAT [7228] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:13:59.341 EAT [17256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:13:59.345 EAT [16540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:17:57.591 EAT [6096] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:17:57.591 EAT [6096] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:24:20.534 EAT [12192] ERROR:  database ""Ranking_System"" does not exist
+2023-04-19 05:24:20.534 EAT [12192] STATEMENT:  
+	    SELECT datname
+	    FROM pg_database
+	    WHERE
+	      datistemplate = false
+	      AND has_database_privilege(quote_ident(datname), 'TEMP, CONNECT') = true
+	    ;
+2023-04-19 05:24:22.540 EAT [4104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:24:22.544 EAT [3120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:54:28.810 EAT [6996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-04-19 05:54:28.810 EAT [1096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

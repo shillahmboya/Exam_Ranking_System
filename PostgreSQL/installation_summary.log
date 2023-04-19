@@ -1,0 +1,14 @@
+
+Installation Directory: C:\Program Files\odoo3\PostgreSQL
+Server Installation Directory: C:\Program Files\odoo3\PostgreSQL
+Data Directory: C:\Program Files\odoo3\PostgreSQL\data
+Database Port: 5434
+Database Superuser: openpg
+Operating System Account: openpgsvc
+Database Service: PostgreSQL_For_Odoo
+Command Line Tools Installation Directory: C:\Program Files\odoo3\PostgreSQL
+pgAdmin4 Installation Directory: C:\Program Files\odoo3\PostgreSQL\pgAdmin 4
+Stack Builder Installation Directory: C:\Program Files\odoo3\PostgreSQL\stackbuilder
+
+===== Installation completed at: 2023-04-18(YYYY-MM-DD) - 18:29:54(HH:MM:SS) =====
+                            
