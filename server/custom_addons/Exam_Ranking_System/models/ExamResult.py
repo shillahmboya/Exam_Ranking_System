@@ -1,4 +1,5 @@
-from . import models,fields
+from odoo import models
+from odoo import fields
 class ExamResult(models.Model):
     _name = 'Exam_Ranking_System.examresult'
     _description = 'Exam Result'

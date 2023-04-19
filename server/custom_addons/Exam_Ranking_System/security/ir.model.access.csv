@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_exam_user,exam user, model_exam, base.group_user, 1,0,0,0
+access_exam_manager,exam manager, model_exam, exams_ranking_system.group_exam_manager, 1,1,1,1
+access_student_user,student user, model_student, base.group_user, 1,0,0,0
+access_student_manager,student manager, model_student, exams_ranking_system.group_student_manager, 1,1,1,1
+access_examresult_user,examresult user, model_examresult, base.group_user, 1,0,0,0
+access_examresult_manager,examresult manager, model_examresult, exams_ranking_system.group_examresult_manager, 1,1,1,1

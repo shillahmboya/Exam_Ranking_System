@@ -1,0 +1,53 @@
+<odoo>
+    <data>
+        <!-- Student Form View -->
+        <record id="student_form_view" model="ir.ui.view">
+            <field name="name">student.form</field>
+            <field name="model">Exam_Ranking_System.student</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Student">
+                    <group>
+                        <field name="first_name"/>
+                        <field name="last_name"/>
+                        <field name="email"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <!-- Student List View -->
+        <record id="student_list_view" model="ir.ui.view">
+            <field name="name">student.list</field>
+            <field name="model">Exam_Ranking_System.student</field>
+            <field name="type">list</field>
+            <field name="arch" type="xml">
+                <tree string="Students">
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                </tree>
+            </field>
+        </record>
+        
+        <!-- Student Kanban View -->
+        <record id="student_kanban_view" model="ir.ui.view">
+            <field name="name">student.kanban</field>
+            <field name="model">Exam_Ranking_System.student</field>
+            <field name="type">kanban</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                </kanban>
+            </field>
+        </record>
+        <record id="action_exam" model="ir.actions.act_window">
+        <field name="name">student</field>
+        <field name="res_model">Exam_Ranking_System.student</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+    </data>
+</odoo>
