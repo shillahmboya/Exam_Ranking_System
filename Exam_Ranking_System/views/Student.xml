@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        
+
+        <record id="view_exam_tree" model="ir.ui.view">
+            <field name="name">student.d.tree</field>
+            <field name="model">student.d</field>
+            <field name="arch" type="xml">
+                <tree string="Studenttree">
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                    <!--<field name=" exam_result_ids"/>-->
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_student_form" model="ir.ui.view">
+            <field name="name">student.d.form</field>
+            <field name="model">student.d</field>
+            <field name="arch" type="xml">
+                <form string="Sudent">
+                    <group>
+                        <group>
+                            <field name="first_name"/>
+                            <field name="last_name"/>
+                        </group>
+                        <group>
+                            <field name="email"/>
+                        </group>
+                    </group>
+                   
+                </form>
+            </field>
+        </record>
+
+        <record id="view_student_kanban" model="ir.ui.view">
+            <field name="name">student.d.kanban</field>
+            <field name="model">student.d</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="action_student_form" model="ir.actions.act_window">
+            <field name="name">Student</field>
+            <field name="res_model">student.d</field>
+            <field name="view_mode">tree,form,kanban</field>
+            
+            
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        
+
+        <record id="view_exam_tree" model="ir.ui.view">
+            <field name="name">exam.mm.tree</field>
+            <field name="model">exam.mm</field>
+            <field name="arch" type="xml">
+                <tree string="examtree">
+                    <field name="name"/>
+                    <field name="date"/>
+                    <field name="total_marks"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_exam_form" model="ir.ui.view">
+            <field name="name">exam.mm.form</field>
+            <field name="model">exam.mm</field>
+            <field name="arch" type="xml">
+                <form string="Exams">
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="date"/>
+                        </group>
+                        <group>
+                            <field name="total_marks"/>
+                        </group>
+                    </group>
+                   
+                </form>
+            </field>
+        </record>
+
+        <record id="view_exam_kanban" model="ir.ui.view">
+            <field name="name">exam.mm.kanban</field>
+            <field name="model">exam.mm</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="date"/>
+                    <field name="total_marks"/>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="action_exam_form" model="ir.actions.act_window">
+            <field name="name">Exams</field>
+            <field name="res_model">exam.mm</field>
+            <field name="view_mode">tree,form,kanban</field>
+            
+            
+        </record>
+
+    </data>
+</odoo>
